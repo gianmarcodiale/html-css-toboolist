@@ -108,11 +108,20 @@ h2 {
 .toboo_logo {
     width: 150px;
     height: 150px;
+    flex-basis: 40%;
 }
 
 .logo_text {
     font-size: 3rem;
     font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
 }
 
 /* Main */
@@ -122,6 +131,7 @@ h2 {
     background-color: white;
     border-radius: 10px;
     line-height: 35px;
+    padding-left: 60px;
 }
 
 .done {
