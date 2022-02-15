@@ -6,18 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="site_header"></header>
+    <header id="site_header">
+        <div class="logo_header">
+            <img class="toboo_logo" src="./img/boolean_logo.jpeg" alt="">
+            <span class="logo_text">Toboolist</span>
+        </div>
+    </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <nav></nav>
-        <section class="new_task"></section>
+        <div class="main_page">
+            <nav>
+                <button>Add Task</button>
+                <button>Add Section</button>
+                <hr>
+            </nav>
+            <section class="new_task"></section>
         <!-- /.new_task -->
-        <section class="today"></section>
+            <section class="today"></section>
         <!-- /.today -->
-        <section class="upcoming"></section>
-        <!-- /.upcoming -->
+            <section class="upcoming"></section>
+        </div><!-- /.upcoming -->
     </main>
     <!-- /#site_main -->
 </body>
