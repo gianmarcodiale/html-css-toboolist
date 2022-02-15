@@ -1,10 +1,70 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(241, 236, 236);
 }
 
 main {
     width: 1100px;
     margin: 5rem auto;
+}
+
+.editorial {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: cornflowerblue;
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Q1_Goals {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(165, 98, 241);
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.recruiting {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(13, 241, 146);
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.mobile {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(228, 117, 13);
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.website {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(233, 37, 158);
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sales {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(134, 238, 15);
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /* Header */
@@ -19,8 +79,14 @@ main {
 }
 
 .logo_text {
-    position: fixed;
     font-size: 3rem;
     font-family: "Roboto", sans-serif;
-    margin-top: 45px;
+}
+
+/* Main */
+
+.main_page {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
